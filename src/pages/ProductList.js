@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import '../styles/productList.css';
 
 const BASE_URL = 'http://13.235.87.215:4000';
-
+// l 
 function ProductList() {
 	const [categoryList, setCategoryList] = useState([]);
 	const [productList, setProductList] = useState([]);
